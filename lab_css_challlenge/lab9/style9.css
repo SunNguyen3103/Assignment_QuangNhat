@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.div1{
+    width:350px;
+    height:600px;
+    color:white;
+    background-color: gray;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction:column;
+
+}
+.div2{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    
+}
+.div3{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+/* span{
+    position: absolute;
+    left: 0;
+    
+} */

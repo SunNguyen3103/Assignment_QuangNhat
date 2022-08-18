@@ -1,0 +1,6 @@
+.square-box{
+    width: 500px;
+    height: 500px;
+    background-color: #6b6be9;
+    resize: both;
+}

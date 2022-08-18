@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    color: whiteS;
+}
+ .div1 {
+    color: aliceblue;
+    float: left;
+
+  }
+
+  .div3 {
+    color: aliceblue;
+    float: right;
+    margin-left: 5px;
+  }  
+
+  .div2 {
+    color: aliceblue;
+    float: right;
+  }

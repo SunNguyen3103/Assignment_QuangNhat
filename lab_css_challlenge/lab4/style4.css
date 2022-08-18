@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+.text{
+    color:white;
+}
+
+
+.box{ 
+
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin: 0;
+    
+}
+
+.box-2{
+    background-color:#3a3a3c;
+    margin-top: 50px;
+    margin-left: 75px;
+    width: 150px;
+    height: 150px;
+}

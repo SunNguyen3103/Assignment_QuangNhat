@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Assignment 1 - HTML comment -->
+    <!-- Comment the second paragraph of the following HTML document -->
+    <section class="Assignment1">
+        <h3>In this course we'll learn:</h3>
+        <!-- <p>HTML & CSS</p> -->
+        <p>Python</p>
+        <p>JavaScript</p>
+    </section>
+    <!-- Assignment 2 - Hyperlink 1
+    Create a hyperlink that leads to www.kie.io -->
+    <section class="Assignment2">
+        <a href="https://www.kie.io">a hyperlink that leads to www.kie.io</a>
+    </section>
+    <!-- Assignment 3 - Hyperlink 2
+    Create a hyperlink to take you to another part of the same HTML document -->
+    <section class="Assignment3">
+        <a href="#">a hyperlink to take you to another part of the same HTML document</a>
+    </section>
+    <!-- Assignment 4 - Hyperlink 3
+    Create a hyperlink that opens the linked document in a separate browser tab -->
+    <section class="Assignment4">
+        <a href="#" target="_blank">a hyperlink to take you to another part of the same HTML document</a>
+    </section>
+    <!-- Assignment 5 - Article
+    Create an article element that has a title and a paragraph (HTML5 article element represents independent item like a
+    blog entry in an web document). -->
+    <section class="Assigment5">
+        <article>
+            <h1>this is atitle</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur at repudiandae fugit, eos
+                consequatur iusto similique quasi in eaque consectetur accusantium saepe repellendus error autem
+                excepturi quia inventore quae veritatis?</p>
+        </article>
+    </section>
+    <!-- Assignment 6 - Audio -->
+    <section>
+        <audio src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3" controls></audio>
+    </section>
+    <!-- Assignment 7 - Video
+    Embed an video clip into a web page. -->
+    <section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jA42r7cTeaM" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </section>
+    <!-- Assignment 8 - Image
+    Create an image with these attributes:
+    
+    An alternate text
+    The size of the image is 250 pixels wide and 400 pixels tall. -->
+    <section>
+        <img src="https://source.unsplash.com/random" width="250px" height="400px" alt="">
+    </section>
+    <!-- Assignment 9 - Bold text
+    How to write bold text using HTML tags? -->
+    <section>
+        <p>
+            <b>this is text bold</b>
+        </p>
+    </section>
+    <!--Assignment 10-->
+    <section>
+        <p>
+            <u>text</u>
+        </p>
+    </section>
+    <!-- Assignment 11 - Strikeout
+Add a line through a word in a paragraph. -->
+    <section>
+        <p>
+            <del>
+                a line through a word in a paragraph
+            </del>
+        </p>
+    </section>
+    <!-- Assignment 12 - Line break
+    Add a line break in middle of a paragraph. -->
+    <section>
+        <p>
+            this is <br> a paragraph
+        </p>
+    </section>
+    <!-- Assignment 13 - Horizontal line
+    Add a horizontal line between two paragraphs. -->
+    <section>
+        <p> this is paragraph 1 </p>
+        <hr>
+        <p> this is paragraph 2 </p>
+
+    </section>
+    <!-- Assignment 14 - Unordered List
+    Create an unordered list with three items. -->
+    <section>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ul>
+    </section>
+    <!-- Assignment 15 - Ordered List -->
+    <!-- Create three ordered lists that use numbers/uppercase ABC/roman numbers for the item. Each has 2 items. -->
+    <ol type="I">
+        <li>first</li>
+        <li>second</li>
+        <li>last</li>
+    </ol>
+    <ol type="A">
+        <li>first</li>
+        <li>second</li>
+        <li>last</li>
+    </ol>
+    <!-- Assignment 16 - Definition list
+    Create a definition list with two items. Each item has a description. -->
+    <dl>
+        <dt>JavaScript</dt>
+        <dd>is a programming language and platform</dd>
+        <dt>SQL</dt>
+        <dd>is a scripting language</dd>
+    </dl>
+    <!-- Assignment 17 - Button
+    Create a button that pop up a window says "Hi friend!" when click on it. Hint: onclick, alert(). -->
+    <button onClick="alert('Hi friend')"> click</button>
+    <!-- Assignment 18 - Table
+    Create a table with two rows, three columns, and headers. -->
+    <table>
+        <header>Header</header>
+        <tr>
+            <th>first column</th>
+            <th>second column</th>
+            <th>last column</th>
+        </tr>
+        <tr>
+            <td>first column</td>
+            <td>Second column</td>
+            <td>last column</td>
+        </tr>
+    </table>
+    <!-- Assignment 19 - Navigation Links
+    How to define a section with navigation links. -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Main page</a></li>
+            <li><a href="second.html">Second page</a></li>
+            <li><a href="third.html">Last page</a></li>
+        </ul>
+    </nav>
+    <!-- Assignment 20 - Toggable Detail
+    How to define a toggable block of content with a summary and additional details. (Ref:
+    https://htmlreference.io/element/details/) -->
+    <details>
+        <summary>Read more</summary>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.</p>
+    </details>
+    <!-- Assignment 21 - Form
+    Create a form that asks for:
+    
+    Email, password and confirm password. Each of the field has a arcording placeholder.
+    Title (Radio box), 2 options: Developer or Employer
+    Interested in (Checkbox), 3 options: ReactJS, NodeJS, Web Design
+    City (Select box), 3 options: Hanoi, HCMC, Da Nang
+    Short Bio (Text area)
+    A confirm button which is disabled. -->
+    <form>
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" name="email" placeholder="enter your email"><br>
+
+        <label for="password ">Password: </label><br>
+        <input type="password" id="password " name="password " placeholder="password"><br>
+
+        <label for="confPassword ">Confirm password: </label><br>
+        <input type="password" id="confPassword " name="confPassword " placeholder="password"><br>
+
+        <label for="title">Title: </label><br>
+        <input type="radio" id="developer" name="title" value="developer">
+        <label for="developer">Developer</label><br>
+        <input type="radio" id="employer" name="title" value="employer">
+        <label for="employer">Employer</label><br>
+
+        <label for="interest">Interested in: </label><br>
+        <input type="checkbox" id="ReactJS" name="ReactJS" value="Bike">
+        <label for="ReactJS"> ReactJS </label><br>
+        <input type="checkbox" id="NodeJS" name="NodeJS" value="Car">
+        <label for="NodeJS"> NodeJS </label><br>
+        <input type="checkbox" id="Web Design" name="Web Design" value="Boat">
+        <label for="Web Design"> Web Design</label><br>
+
+        <label for="city">Choose a city:</label><br>
+        <select name="city" id="city">
+            <option selected value="Hanoi">Hanoi</option>
+            <option value="HCMC">HCMC</option>
+            <option value="Da Nang">Da Nang</option>
+        </select>
+
+        <label for="bio">Short bio</label><br>
+        <textarea placeholder="write your bio here"></textarea>
+        </button>
+    </form>
+</body>
+
+</html>
